@@ -46,7 +46,7 @@ The card JPanel holds 52 JButtons. 4 rows of 13 cards, using a GridLayout.  I se
 
 The button JPanel holds a Reset Game button that shuffles the cards and enables the card JPanel JButtons.
 
-## Controller
+### Controller
 
 The CardListener class disables the first JButton selected.  When the second JButton is selected, the card values are compared.  If they match, the second JButton is disabled.  If they don't match, then a separate thread waits 3 seconds, then enables the first and second JButtons.
 
