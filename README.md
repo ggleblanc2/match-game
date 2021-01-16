@@ -20,6 +20,8 @@ The game takes a standard 52 card deck, shuffles it, and deals the cards out to 
 
 I used an image of a card deck to create the 52 card images and the card back image.  I created a black image that shows when a button is held down.
 
+![Deck of cards image](resources/deckofcards.png)
+
 I coded eight Java classes to create this game.  I used the [model / view / controller](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) pattern.  This pattern allows me to separate my concerns and focus on one part of the Swing application at a time.
 
 The main class, MatchGame, starts the GUI by executing the SwingUtilities invokeLater method.  This method ensures that the Swing components are created and executed on the [Event Dispatch Thread](https://docs.oracle.com/javase/tutorial/uiswing/concurrency/dispatch.html).
